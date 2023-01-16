@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 def islower(c):
 
-    if ('a' <= c <= 'z' and c):
-        return (1)
+    if c and c is not None:
+        if ('a' <= c <= 'z'):
+            return (1)
+        else:
+            return (0)
     else:
         return (0)
