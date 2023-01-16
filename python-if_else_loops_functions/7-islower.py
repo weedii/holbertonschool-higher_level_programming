@@ -2,6 +2,7 @@
 
 def islower(c):
 
+
     if (c != ""):
         if ('a' <= c <= 'z'):
             return (1)
