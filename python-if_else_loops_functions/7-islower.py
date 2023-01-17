@@ -3,6 +3,6 @@ def islower(c):
 
     if c and c is not None:
         if ('a' <= c <= 'z'):
-            return (1)
+            return (True)
         else:
-            return (0)
+            return (False)
