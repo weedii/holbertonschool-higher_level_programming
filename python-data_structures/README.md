@@ -50,3 +50,10 @@
 
 ---
 
+6. Lists of lists = Matrix
+
+- A function that prints a matrix of integers.
+
+- File: [6-print_matrix_integer.py](./6-print_matrix_integer.py)
+
+---
