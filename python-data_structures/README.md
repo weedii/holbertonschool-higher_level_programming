@@ -41,3 +41,12 @@
 - File: [4-new_in_list.py](./4-new_in_list.py)
 
 ---
+
+5. Can you C me now?
+
+- A function that removes all characters c and C from a string.
+
+- File: [5-no_c.py](./5-no_c.py)
+
+---
+
