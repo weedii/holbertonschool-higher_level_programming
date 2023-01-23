@@ -25,3 +25,11 @@
 - File: [2-replace_in_list.py](./2-replace_in_list.py)
 
 ---
+
+3. Print a list of integers... in reverse!
+
+- A function that prints all integers of a list, in reverse order.
+
+- File: [3-print_reversed_list_integer.py](./3-print_reversed_list_integer.py)
+
+---
