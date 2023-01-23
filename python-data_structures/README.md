@@ -17,3 +17,11 @@
 - File: [1-element_at.py](./1-element_at.py)
 
 ---
+
+2. Replace element
+
+- A function that replaces an element of a list at a specific position (like in C).
+
+- File: [2-replace_in_list.py](./2-replace_in_list.py)
+
+---
