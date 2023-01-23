@@ -33,3 +33,11 @@
 - File: [3-print_reversed_list_integer.py](./3-print_reversed_list_integer.py)
 
 ---
+
+4. Replace in a copy
+
+- A function that replaces an element in a list at a specific position without modifying the original list (like in C).
+
+- File: [4-new_in_list.py](./4-new_in_list.py)
+
+---
