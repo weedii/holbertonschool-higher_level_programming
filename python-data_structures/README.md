@@ -6,7 +6,14 @@
 
 - A function that prints all integers of a list.
 
-File: [0-print_list_integer.py](./0-print_list_integer.py)
+- File: [0-print_list_integer.py](./0-print_list_integer.py)
 
 ---
 
+1. Secure access to an element in a list
+
+- A function that retrieves an element from a list like in C.
+
+- File: [1-element_at.py](./1-element_at.py)
+
+---
