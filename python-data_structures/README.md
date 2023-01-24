@@ -62,6 +62,6 @@
 
 - A function that adds 2 tuples.
 
--File: [7-add_tuple.py](./7-add_tuple.py)
+- File: [7-add_tuple.py](./7-add_tuple.py)
 
 ---
