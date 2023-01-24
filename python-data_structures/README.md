@@ -73,3 +73,11 @@
 - File: [8-multiple_returns.py](./8-multiple_returns.py)
 
 ---
+
+9. Find the max
+
+- A function that finds the biggest integer of a list.
+
+- File: [9-max_integer.py](./9-max_integer.py)
+
+---
