@@ -57,3 +57,11 @@
 - File: [6-print_matrix_integer.py](./6-print_matrix_integer.py)
 
 ---
+
+7. Tuples addition
+
+- A function that adds 2 tuples.
+
+-File: [7-add_tuple.py](./7-add_tuple.py)
+
+---
