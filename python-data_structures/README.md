@@ -81,3 +81,11 @@
 - File: [9-max_integer.py](./9-max_integer.py)
 
 ---
+
+10. Only by 2
+
+- A function that finds all multiples of 2 in a list.
+
+- File: [10-divisible_by_2.py](./10-divisible_by_2.py)
+
+---
