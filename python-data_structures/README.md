@@ -90,6 +90,14 @@
 
 ---
 
+11. Delete at
+
+- A function that deletes the item at a specific position in a list.
+
+- File: [11-delete_at.py](./11-delete_at.py)
+
+---
+
 12. Switch
 
 - A to switch value of a and b.
