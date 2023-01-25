@@ -9,3 +9,11 @@
 - File: [0-square_matrix_simple.py](./0-square_matrix_simple.py)
 
 ---
+
+1. Search and replace
+
+- A function that replaces all occurrences of an element by another in a new list.
+
+- File: [1-search_replace.py](./1-search_replace.py)
+
+---
