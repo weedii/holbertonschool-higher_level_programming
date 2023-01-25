@@ -25,3 +25,11 @@
 - File: [2-uniq_add.py](./2-uniq_add.py)
 
 ---
+
+3. Present in both
+
+- A function that returns a set of common elements in two sets.
+
+- File: [3-common_elements.py](./3-common_elements.py)
+
+---
