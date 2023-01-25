@@ -57,3 +57,11 @@
 - File: [6-print_sorted_dictionary.py](./6-print_sorted_dictionary.py)
 
 ---
+
+7. Update dictionary
+
+- A function that replaces or adds key/value in a dictionary.
+
+- File; [7-update_dictionary.py](./7-update_dictionary.py)
+
+---
