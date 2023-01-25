@@ -65,3 +65,11 @@
 - File; [7-update_dictionary.py](./7-update_dictionary.py)
 
 ---
+
+8. Simple delete by key
+
+- A function that deletes a key in a dictionary.
+
+- File: [8-simple_delete.py](./8-simple_delete.py)
+
+---
