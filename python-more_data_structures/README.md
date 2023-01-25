@@ -81,3 +81,11 @@
 - File: [9-multiply_by_2.py](./9-multiply_by_2.py)
 
 ---
+
+10. Best score
+
+- A function that returns a key with the biggest integer value.
+
+- File: [10-best_score.py](./10-best_score.py)
+
+---
