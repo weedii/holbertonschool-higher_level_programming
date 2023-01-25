@@ -49,3 +49,11 @@
 - File: [5-number_keys.py](./5-number_keys.py)
 
 ---
+
+6. Print sorted dictionary
+
+- A function that prints a dictionary by ordered keys.
+
+- File: [6-print_sorted_dictionary.py](./6-print_sorted_dictionary.py)
+
+---
