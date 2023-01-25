@@ -17,3 +17,11 @@
 - File: [1-search_replace.py](./1-search_replace.py)
 
 ---
+
+2. Unique addition
+
+- A function that adds all unique integers in a list (only once for each integer).
+
+- File: [2-uniq_add.py](./2-uniq_add.py)
+
+---
