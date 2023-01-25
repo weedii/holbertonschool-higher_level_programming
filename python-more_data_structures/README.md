@@ -89,3 +89,11 @@
 - File: [10-best_score.py](./10-best_score.py)
 
 ---
+
+11. Multiply by using map
+
+- A function that returns a list with all values multiplied by a number without using any loops.
+
+-File: [11-multiply_list_map.py](./11-multiply_list_map.py)
+
+---
