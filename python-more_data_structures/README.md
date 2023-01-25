@@ -73,3 +73,11 @@
 - File: [8-simple_delete.py](./8-simple_delete.py)
 
 ---
+
+9. Multiply by 2
+
+- A function that returns a new dictionary with all values multiplied by 2
+
+- File: [9-multiply_by_2.py](./9-multiply_by_2.py)
+
+---
