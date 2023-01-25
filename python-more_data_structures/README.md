@@ -41,3 +41,11 @@
 - File: [4-only_diff_elements.py](./4-only_diff_elements.py)
 
 ---
+
+5. Number of keys
+
+- A function that returns the number of keys in a dictionary.
+
+- File: [5-number_keys.py](./5-number_keys.py)
+
+---
