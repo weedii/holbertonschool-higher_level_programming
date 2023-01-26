@@ -21,3 +21,13 @@
 - File: [1-safe_print_integer.py](./1-safe_print_integer.py)
 
 ---
+
+2. Print and count integers
+
+- A function that prints the first x elements of a list and only integers.
+
+* Use " try: / except: "
+
+- File: [2-safe_print_list_integers.py](./2-safe_print_list_integers.py)
+
+---
