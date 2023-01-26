@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
 
-    if (not roman_string or roman_string is not str):
+    if (not roman_string or not isinstance(roman_string, str)):
         return (None)
 
     roman_list = {'I': 1, 'V': 5, 'X': 10,
