@@ -97,3 +97,11 @@
 -File: [11-multiply_list_map.py](./11-multiply_list_map.py)
 
 ---
+
+12. Roman to Integer
+
+- A function def roman_to_int(roman_string): that converts a Roman numeral to an integer.
+
+- File: [12-roman_to_int.py](./12-roman_to_int.py)
+
+---
