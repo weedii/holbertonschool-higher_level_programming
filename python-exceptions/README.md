@@ -31,3 +31,13 @@
 - File: [2-safe_print_list_integers.py](./2-safe_print_list_integers.py)
 
 ---
+
+3. Integers division with debug
+
+- A function that divides 2 integers and prints the result.
+
+* Use " try: / except: / finally: "
+
+- File: [3-safe_print_division.py](./3-safe_print_division.py)
+
+---
