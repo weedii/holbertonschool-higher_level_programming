@@ -2,13 +2,12 @@
 def safe_print_list_integers(my_list=[], x=0):
 
     try:
-        j = 0
-        for i in (my_list):
-            if (j < x and type(i) == int):
-                print("{:d}".format(i), end="")
-                j += 1
-    except:
-        raise IndexError("list index out of rangeeeeeee")
-
-    print(end="\n")
-    return (j)
+        count = 0
+        for i in range(x):
+            if (type(my_list[i]) == int):
+                print("{:d}".format(my_list[i]), end="")
+                count += 1
+        print()
+        return (count)
+    except IndexError:
+        raise IndexError("list index out of range")
