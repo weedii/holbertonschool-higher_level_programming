@@ -51,3 +51,11 @@
 - File: [4-list_division.py](./4-list_division.py)
 
 ---
+
+5. Raise exception
+
+- A function that raises a type exception.
+
+- File: [5-raise_exception.py](./5-raise_exception.py)
+
+---
