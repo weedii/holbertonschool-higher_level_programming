@@ -105,3 +105,13 @@
 - File: [12-roman_to_int.py](./12-roman_to_int.py)
 
 ---
+---
+---
+
+15. Delete by value
+
+- A function that deletes keys with a specific value in a dictionary.
+
+- File: [102-complex_delete.py](./102-complex_delete.py)
+
+---
