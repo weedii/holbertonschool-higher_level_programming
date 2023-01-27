@@ -59,3 +59,12 @@
 - File: [5-raise_exception.py](./5-raise_exception.py)
 
 ---
+
+
+6. Raise a message
+
+- A function that raises a name exception with a message.
+
+- File: [6-raise_exception_msg.py](./6-raise_exception_msg.py)
+
+---
