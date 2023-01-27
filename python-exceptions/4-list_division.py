@@ -8,8 +8,8 @@ def list_division(my_list_1, my_list_2, list_length):
             if i >= len(my_list_1) or i >= len(my_list_2):
                 raise (IndexError)
 
-            elif (type(my_list_1[i]) not in (int, float)
-                  or type(my_list_2[i]) not in (int, float)):
+            elif (type(my_list_1[i]) not in (int, float) or
+                  type(my_list_2[i]) not in (int, float)):
                 raise (TypeError)
 
             elif my_list_2[i] == 0:
