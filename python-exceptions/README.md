@@ -41,3 +41,13 @@
 - File: [3-safe_print_division.py](./3-safe_print_division.py)
 
 ---
+
+4. Divide a list
+
+- A function that divides element by element 2 lists.
+
+* Use " try: / except: / finally: "
+
+- File: [4-list_division.py](./4-list_division.py)
+
+---
