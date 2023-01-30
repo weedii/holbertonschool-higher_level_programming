@@ -18,3 +18,12 @@
 - File: [1-square.py](./1-square.py)
 
 ---
+
+2. Size validation
+
+- Write a class Square that defines a square by: (based on 1-square.py)
+-   Private instance attribute: size
+
+-File: [2-square.py](./2-square.py)
+
+---
