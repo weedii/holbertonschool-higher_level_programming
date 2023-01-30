@@ -9,3 +9,12 @@
 - File: [0-square.py](./0-square.py)
 
 ---
+
+1. Square with size
+
+- Write a class Square that defines a square by:
+    * Private instance attribute: size
+
+- File: [1-square.py](./1-square.py)
+
+---
