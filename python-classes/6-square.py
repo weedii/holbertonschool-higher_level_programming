@@ -7,8 +7,8 @@ class Square:
     """__init__ method"""
 
     def __init__(self, size=0, position=(0, 0)):
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     """property"""
     @property
@@ -33,13 +33,14 @@ class Square:
     """position_setter method"""
     @position.setter
     def position(self, value):
-        if len(value) != 2:
-            raise ValueError("position must be a tuple of 2 positive integers")
         x, y = value
-        if (type(x) != int or type(x) != int):
-            raise ValueError("position must be a tuple of 2 positive integers")
-        else:
-            self.__position = value
+        if (type(value) != tuple or len(value) != 2):
+            raise TypeError("position must be a tuple of 2 positive integers")
+        if (type(x) != int or type(y) != int):
+            raise TypeError("position must be a tuple of 2 positive integers")
+        if (x < 0 or y < 0):
+            raise TypeError("position must be a tuple of 2 positive integers")
+        self.__position = value
 
     """area method"""
 
@@ -53,8 +54,7 @@ class Square:
             print()
             return
         else:
+            print('\n' * self.__position[1], end="")
             for i in range(self.__size):
                 print(' '*self.__position[0], end="")
-                for j in range(self.__size):
-                    print('#', end="")
-                print(end='\n')
+                print('#'*self.__size)
