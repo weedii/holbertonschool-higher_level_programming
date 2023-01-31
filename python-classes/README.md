@@ -61,3 +61,17 @@
 - File: [5-square.py](./5-square.py)
 
 ---
+
+6. Coordinates of a square
+
+- Write a class Square that defines a square by:
+    - Private instance attribute: size:
+        - property def size(self): to retrieve it
+        - property setter def size(self, value): to set it
+    - Private instance attribute: position:
+        - property def position(self): to retrieve it
+        - property setter def position(self, value): to set it
+
+- File: [6-square.py](./6-square.py)
+
+---
