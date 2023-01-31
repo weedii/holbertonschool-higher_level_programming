@@ -15,7 +15,7 @@ class Square:
     def size(self):
         return (self.__size)
 
-    """setter method"""
+    """size_setter method"""
     @size.setter
     def size(self, value):
         if (type(value) != int):
@@ -30,10 +30,10 @@ class Square:
     def position(self):
         return (self.__position)
 
-    """setter method"""
+    """position_setter method"""
     @position.setter
     def position(self, value):
-        if (type(value) != int):
+        if (type(value[0]) != int or type(value[1]) != int):
             raise TypeError("position must be a tuple of 2 positive integers")
         else:
             self.__position = value
