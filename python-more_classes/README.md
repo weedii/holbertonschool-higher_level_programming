@@ -141,3 +141,50 @@
 - File: [7-rectangle.py](./7-rectangle.py)
 
 ---
+
+8. Compare rectangles
+
+- Write a class Rectangle that defines a rectangle by:
+
+    - Public class attribute print_symbol: that take the symbol to represent a Rectangle with it
+    - Public class attribute number_of_instances: that counts number of instances
+    - Private instance attribute: width:
+        - property def width(self): to retrieve it
+        - property setter def width(self, value): to set it
+    - Private instance attribute: height:
+        - property def height(self): to retrieve it
+        - property setter def height(self, value): to set it
+    - Public instance method that returns the rectangle area
+    - Public instance method that returns the rectangle perimeter
+    - __str__()  method returns a human-readable string representation of an object print() and str()
+    - __repr__() method returns a more information-rich, or official, string representation of an object
+    - __del__()  method is called when an instance of Rectangle is deleted
+    - Add method "bigger_or_equal" that Compare rectangles based on the area
+
+- File: [8-rectangle.py](./8-rectangle.py)
+
+---
+
+9. A square is a rectangle
+
+- Write a class Rectangle that defines a rectangle by:
+
+    - Public class attribute print_symbol: that take the symbol to represent a Rectangle with it
+    - Public class attribute number_of_instances: that counts number of instances
+    - Private instance attribute: width:
+        - property def width(self): to retrieve it
+        - property setter def width(self, value): to set it
+    - Private instance attribute: height:
+        - property def height(self): to retrieve it
+        - property setter def height(self, value): to set it
+    - Public instance method that returns the rectangle area
+    - Public instance method that returns the rectangle perimeter
+    - __str__()  method returns a human-readable string representation of an object print() and str()
+    - __repr__() method returns a more information-rich, or official, string representation of an object
+    - __del__()  method is called when an instance of Rectangle is deleted
+    - Add method "bigger_or_equal" that Compare rectangles based on the area
+    - Add Class method that returns a new Rectangle instance with width == height == size
+
+- File: [9-rectangle.py](./9-rectangle.py)
+
+---
