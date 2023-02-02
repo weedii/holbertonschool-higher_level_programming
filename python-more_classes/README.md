@@ -119,3 +119,25 @@
 - File: [6-rectangle.py](./6-rectangle.py)
 
 ---
+
+7. Change representation
+
+- Write a class Rectangle that defines a rectangle by:
+
+    - Public class attribute print_symbol: that take the symbol to represent a Rectangle with it
+    - Public class attribute number_of_instances: that counts number of instances
+    - Private instance attribute: width:
+        - property def width(self): to retrieve it
+        - property setter def width(self, value): to set it
+    - Private instance attribute: height:
+        - property def height(self): to retrieve it
+        - property setter def height(self, value): to set it
+    - Public instance method that returns the rectangle area
+    - Public instance method that returns the rectangle perimeter
+    - __str__()  method returns a human-readable string representation of an object print() and str()
+    - __repr__() method returns a more information-rich, or official, string representation of an object
+    - __del__()  method is called when an instance of Rectangle is deleted
+
+- File: [7-rectangle.py](./7-rectangle.py)
+
+---
