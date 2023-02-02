@@ -51,9 +51,12 @@ class Rectangle:
             return (0)
         return (2*(self.__width+self.__height))
 
+    """__str__ method that print a Rectangle of (#)
+    instead of returns a human-readable,string representation of an object."""
+
     def __str__(self):
         if (self.width == 0 or self.height == 0):
-            return("")
+            return ("")
         else:
             ch = ""
             for i in range(self.height):
