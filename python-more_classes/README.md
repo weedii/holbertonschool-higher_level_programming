@@ -59,3 +59,20 @@
 - File: [3-rectangle.py](./3-rectangle.py)
 
 ---
+
+4. Eval is magic
+
+- Write a class Rectangle that defines a rectangle by:
+
+    - Private instance attribute: width:
+        - property def width(self): to retrieve it
+        - property setter def width(self, value): to set it
+    - Private instance attribute: height:
+        - property def height(self): to retrieve it
+        - property setter def height(self, value): to set it
+    - Public instance method that returns the rectangle area
+    - Public instance method that returns the rectangle perimeter
+    - __str__()  method returns a human-readable string representation of an object print() and str()
+    - __repr__() method returns a more information-rich, or official, string representation of an object.
+
+- File: [4-rectangle.py](./4-rectangle.py)
