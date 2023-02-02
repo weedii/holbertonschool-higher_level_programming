@@ -66,6 +66,8 @@ class Rectangle:
                     ch += '\n'
             return (ch)
 
-    """"""
+    """__repr__ method that returns a more information-rich
+    or official, string representation of an object"""
+
     def __repr__(self):
         return (f"Rectangle({self.__width}, {self.__height})")
