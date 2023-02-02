@@ -24,3 +24,21 @@
 - File: [1-rectangle.py](./1-rectangle.py)
 
 ---
+
+2. Area and Perimeter
+
+- Write a class Rectangle that defines a rectangle by:
+
+    - Private instance attribute: width:
+        - property def width(self): to retrieve it
+        - property setter def width(self, value): to set it
+    - Private instance attribute: height:
+        - property def height(self): to retrieve it
+        - property setter def height(self, value): to set it
+    - Public instance method that returns the rectangle area
+    - Public instance method that returns the rectangle perimeter
+
+- File: [2-rectangle.py](./2-rectangle.py)
+
+---
+
