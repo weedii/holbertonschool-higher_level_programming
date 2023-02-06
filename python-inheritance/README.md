@@ -25,3 +25,11 @@
 - File: [2-is_same_class.py](./2-is_same_class.py)
 
 ---
+
+3. Same class or inherit from
+
+- A function that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
+
+- File: [3-is_kind_of_class.py](./3-is_kind_of_class.py)
+
+---
