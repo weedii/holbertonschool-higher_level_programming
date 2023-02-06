@@ -33,3 +33,11 @@
 - File: [3-is_kind_of_class.py](./3-is_kind_of_class.py)
 
 ---
+
+4. Only sub class of
+
+- A function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
+
+- File: [4-inherits_from.py](./4-inherits_from.py)
+
+---
