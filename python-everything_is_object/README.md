@@ -40,3 +40,14 @@
 - File: [3-answer.txt](./3-answer.txt)
 
 ---
+
+4. Right count =
+
+- In the following code, do a and b point to the same object? Answer with Yes or No.
+
+>>> a = 89
+>>> b = a
+
+- File: [4-answer.txt](./4-answer.txt)
+
+---
