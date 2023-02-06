@@ -98,3 +98,17 @@ print(s1 is s2)
 - File: [7-answer.txt](./7-answer.txt)
 
 ---
+
+8. Is really equal
+
+- What do these 3 lines print?
+
+```
+s1 = "Best School"
+s2 = "Best School"
+print(s1 == s2)
+```
+
+- File: [8-answer.txt](./8-answer.txt)
+
+---
