@@ -70,3 +70,17 @@ b = a + 1
 - File: [5-answer.txt](./5-answer.txt)
 
 ---
+
+6. Is equal
+
+- What do these 3 lines print?
+
+```
+s1 = "Best School"
+s2 = s1
+print(s1 == s2)
+```
+
+- File: [6-answer.txt](./6-answer.txt)
+
+---
