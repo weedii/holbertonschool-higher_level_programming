@@ -140,3 +140,75 @@ print(l1 == l2)
 - File: [10-answer.txt](./10-answer.txt)
 
 ---
+
+11. And with a list, is it the same
+
+- What do these 3 lines print?
+
+```
+l1 = [1, 2, 3]
+l2 = [1, 2, 3] 
+print(l1 is l2)
+```
+
+- File: [11-answer.txt](./11-answer.txt)
+
+---
+
+12. And with a list, is it really equal
+
+- What do these 3 lines print?
+
+```
+l1 = [1, 2, 3]
+l2 = l1
+print(l1 == l2)
+```
+
+- File: [12-answer.txt](./12-answer.txt)
+
+---
+
+13. And with a list, is it really the same
+
+- What do these 3 lines print?
+
+```
+l1 = [1, 2, 3]
+l2 = l1
+print(l1 is l2)
+```
+
+- File: [13-answer.txt](./13-answer.txt)
+
+---
+
+14. List append
+
+- What does this script print?
+
+```
+l1 = [1, 2, 3]
+l2 = l1
+l1.append(4)
+print(l2)
+```
+
+- File: [14-answer.txt](./14-answer.txt)
+
+---
+
+15. List add
+
+- What does this script print?
+
+```
+l1 = [1, 2, 3]
+l2 = l1
+l1 = l1 + [4]
+print(l2)
+```
+
+- File: [15-answer.txt](./15-answer.txt)
+
+---
