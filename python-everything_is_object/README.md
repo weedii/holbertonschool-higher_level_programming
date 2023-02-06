@@ -23,8 +23,10 @@
 
 - In the following code, do a and b point to the same object? Answer with Yes or No.
 
->>> a = 89
->>> b = 100
+```
+a = 89
+b = 100
+```
 
 - File: [2-answer.txt](./2-answer.txt)
 
@@ -34,8 +36,10 @@
 
 - In the following code, do a and b point to the same object? Answer with Yes or No.
 
->>> a = 89
->>> b = 89
+```
+a = 89
+b = 89
+```
 
 - File: [3-answer.txt](./3-answer.txt)
 
@@ -45,8 +49,10 @@
 
 - In the following code, do a and b point to the same object? Answer with Yes or No.
 
->>> a = 89
->>> b = a
+```
+a = 89
+b = a
+```
 
 - File: [4-answer.txt](./4-answer.txt)
 
@@ -56,8 +62,10 @@
 
 - In the following code, do a and b point to the same object? Answer with Yes or No.
 
->>> a = 89
->>> b = a + 1
+```
+a = 89
+b = a + 1
+```
 
 - File: [5-answer.txt](./5-answer.txt)
 
