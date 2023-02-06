@@ -112,3 +112,17 @@ print(s1 == s2)
 - File: [8-answer.txt](./8-answer.txt)
 
 ---
+
+9. Is really the same
+
+- What do these 3 lines print?
+
+```
+s1 = "Best School"
+s2 = "Best School"
+print(s1 is s2)
+```
+
+- File: [9-answer.txt](./9-answer.txt)
+
+---
