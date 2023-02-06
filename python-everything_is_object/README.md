@@ -212,3 +212,183 @@ print(l2)
 - File: [15-answer.txt](./15-answer.txt)
 
 ---
+
+16. Integer incrementation
+
+- What does this script print?
+
+```
+def increment(n):
+    n += 1
+
+a = 1
+increment(a)
+print(a)
+```
+
+- File: [16-answer.txt](./16-answer.txt)
+
+---
+
+17. List incrementation
+
+- What does this script print?
+
+```
+def increment(n):
+    n.append(4)
+
+l = [1, 2, 3]
+increment(l)
+print(l)
+```
+
+- File: [17-answer.txt](./17-answer.txt)
+
+---
+
+18. List assignation
+
+- What does this script print?
+
+```
+def assign_value(n, v):
+    n = v
+
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+assign_value(l1, l2)
+print(l1)
+```
+
+- File: [18-answer.txt](./18-answer.txt)
+
+---
+
+19. Copy a list object
+
+- A function def copy_list(a_list): that returns a copy of a list.
+
+- File: [19-copy_list.py](./19-copy_list.py)
+
+---
+
+20. Tuple or not?
+
+```
+a = ()
+```
+
+- Is a a tuple? Answer with Yes or No.
+
+- File: [20-answer.txt](./20-answer.txt)
+
+---
+
+21. Tuple or not?
+
+```
+a = (1, 2)
+```
+
+- Is a a tuple? Answer with Yes or No.
+
+- File: [21-answer.txt](./21-answer.txt)
+
+---
+
+22. Tuple or not?
+
+```
+a = (1)
+```
+
+- Is a a tuple? Answer with Yes or No.
+
+- File: [22-answer.txt](./22-answer.txt)
+
+---
+
+23. Tuple or not?
+
+```
+a = (1, )
+```
+
+- Is a a tuple? Answer with Yes or No.
+
+- File: [23-answer.txt](./23-answer.txt)
+
+---
+
+24. Who I am?
+
+- What does this script print?
+
+```
+a = (1)
+b = (1)
+a is b
+```
+
+- File: [24-answer.txt](./24-answer.txt)
+
+---
+
+25. Tuple or not
+
+- What does this script print?
+
+```
+a = (1, 2)
+b = (1, 2)
+a is b
+```
+
+- File: [25-answer.txt](./25-answer.txt)
+
+---
+
+26. Empty is not empty
+
+- What does this script print?
+
+```
+a = ()
+b = ()
+a is b
+```
+
+- File: [26-answer.txt](./26-answer.txt)
+
+---
+
+27. Still the same?
+
+```
+>>> id(a)
+139926795932424
+>>> a
+[1, 2, 3, 4]
+>>> a = a + [5]
+>>> id(a)
+```
+
+- File: [27-answer.txt](./27-answer.txt)
+
+---
+
+28. Same or not?
+
+```
+>>> a
+[1, 2, 3]
+>>> id (a)
+139926795932424
+>>> a += [4]
+>>> id(a)
+```
+
+- File: [28-answer.txt](./28-answer.txt)
+
+---
