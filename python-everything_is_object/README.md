@@ -18,3 +18,14 @@
 - File: [1-answer.txt](./1-answer.txt)
 
 ---
+
+2. Right count
+
+- In the following code, do a and b point to the same object? Answer with Yes or No.
+
+>>> a = 89
+>>> b = 100
+
+- File: [2-answer.txt](./2-answer.txt)
+
+---
