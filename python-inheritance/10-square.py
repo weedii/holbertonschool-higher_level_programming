@@ -3,7 +3,7 @@
 """import the class Rectangle in the instance Rectangle"""
 Rectangle = __import__('9-rectangle').Rectangle
 
-"""Class of Rectangle that inherits from Class Rectangle"""
+"""Class of Square that inherits from Class Rectangle"""
 
 
 class Square(Rectangle):
