@@ -71,3 +71,46 @@
 - Test File: [tests/7-base_geometry.txt](tests/7-base_geometry.txt)
 
 ---
+
+8. Rectangle
+
+- Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py).
+
+    - Instantiation with width and height: def __init__(self, width, height):
+
+- File: [8-rectangle.py](./8-rectangle.py)
+
+---
+
+9. Full rectangle
+
+- Write a class Rectangle that inherits from BaseGeometry (7-base_geometry.py). (task based on 8-rectangle.py)
+
+    - Instantiation with width and height: def __init__(self, width, height):
+    - the area() method must be implemented
+    - print() should print, and str() should return rectangle description
+
+- File: [9-rectangle.py](./9-rectangle.py)
+
+---
+
+10. Square #1
+
+- Write a class Square that inherits from Rectangle (9-rectangle.py):
+
+    - Instantiation with size: def __init__(self, size):
+
+- File: [10-square.py](./10-square.py)
+
+---
+
+11. Square #2
+
+- Write a class Square that inherits from Rectangle (9-rectangle.py). (task based on 10-square.py).
+
+    - Instantiation with size: def __init__(self, size):
+    - print() should print, and str() should return the square description
+
+- File: [11-square.py](./11-square.py)
+
+---
