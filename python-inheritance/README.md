@@ -41,3 +41,33 @@
 - File: [4-inherits_from.py](./4-inherits_from.py)
 
 ---
+
+5. Geometry module
+
+- Write an empty class BaseGeometry.
+
+- File: [5-base_geometry.py](./5-base_geometry.py)
+
+---
+
+6. Improve Geometry
+
+- Write a class BaseGeometry
+
+    - Public instance method: def area(self): that raises an Exception with message
+
+- File: [6-base_geometry.py](./6-base_geometry.py)
+
+---
+
+7. Integer validator
+
+- Write a class BaseGeometry (based on 6-base_geometry.py).
+
+    - Public instance method: def area(self): that raises an Exception with message
+    - Public instance method: def integer_validator(self, name, value): that validates value
+
+- File: [7-base_geometry.py](./7-base_geometry.py)
+- Test File: [tests/7-base_geometry.txt](tests/7-base_geometry.txt)
+
+---
