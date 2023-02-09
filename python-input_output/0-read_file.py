@@ -4,6 +4,7 @@
 
 
 def read_file(filename=""):
+    """read_file function"""
     with open(filename, 'r', encoding="UTF8") as f:
         for c in (f):
             print(c)
