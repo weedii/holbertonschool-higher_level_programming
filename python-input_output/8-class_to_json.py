@@ -8,4 +8,4 @@ Function that returns the dictionary description with
 
 def class_to_json(obj):
     """Class_to_json function"""
-    return (dict(obj))
+    return (obj.__dict__)
