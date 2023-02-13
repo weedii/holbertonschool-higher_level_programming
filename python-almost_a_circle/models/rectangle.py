@@ -89,3 +89,9 @@ class Rectangle(Base):
         """display method that display the Rectangle with #"""
         for i in range(self.__height):
             print('#'*self.__width, end='\n')
+
+    # __str__ method
+    def __str__(self):
+        """__str__ method that return Rectangle discription"""
+        return (f"[Rectangle]({self.id}) {self.__x}/{self.__y} - "
+                f"{self.__width}/{self.__height}")
