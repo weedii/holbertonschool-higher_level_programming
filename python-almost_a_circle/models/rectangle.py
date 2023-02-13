@@ -26,7 +26,11 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, width):
-        if (type(width) == int):
+        if (type(width) != int):
+            raise TypeError(f"{width} of the attribute> must be an integer")
+        elif (width <= 0):
+            raise ValueError(f"{width} of the attribute> must be > 0")
+        else:
             self.__width = width
 
     # height property
@@ -37,6 +41,10 @@ class Rectangle(Base):
     @height.setter
     def height(self, height):
         if (type(height) == int):
+            raise TypeError(f"{height} of the attribute> must be an integer")
+        elif (height <= 0):
+            raise ValueError(f"{height} of the attribute> must be > 0")
+        else:
             self.__height = height
 
     # x property
@@ -47,6 +55,10 @@ class Rectangle(Base):
     @x.setter
     def x(self, x):
         if (type(x) == int):
+            raise TypeError(f"{x} of the attribute> must be an integer")
+        elif (x <= 0):
+            raise ValueError(f"{x} must be >= 0")
+        else:
             self.__x = x
 
     # y property
@@ -57,4 +69,8 @@ class Rectangle(Base):
     @y.setter
     def y(self, y):
         if (type(y) == int):
+            raise TypeError(f"{y} of the attribute> must be an integer")
+        elif (y <= 0):
+            raise ValueError(f"{y} must be >= 0")
+        else:
             self.__y = y
