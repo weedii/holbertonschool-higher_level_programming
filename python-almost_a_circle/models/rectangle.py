@@ -93,5 +93,5 @@ class Rectangle(Base):
     # __str__ method
     def __str__(self):
         """__str__ method that return Rectangle discription"""
-        return (f"[Rectangle]({self.id}) {self.__x}/{self.__y} - "
+        return (f"[Rectangle] ({self.id}) {self.__x}/{self.__y} - "
                 f"{self.__width}/{self.__height}")
