@@ -32,3 +32,11 @@
 - File: [rectangle.py](./rectangle.py)
 
 ---
+
+3. Validate attributes
+
+- Update the class Rectangle by adding validation of all setter methods and instantiation (id excluded)
+
+- File: [rectangle.py](./rectangle.py)
+
+---
