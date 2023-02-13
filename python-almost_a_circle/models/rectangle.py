@@ -3,10 +3,6 @@
 """import the class Base in the instance Base"""
 from models.base import Base
 
-"""
-Class Rectangle that inherits Fome Base class
-"""
-
 
 class Rectangle(Base):
 
