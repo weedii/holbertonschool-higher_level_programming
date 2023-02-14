@@ -87,7 +87,10 @@ class Rectangle(Base):
     # display method
     def display(self):
         """display method that display the Rectangle with #"""
+        if (self.__y > 0):
+            print('\n'*(self.__y - 1))
         for i in range(self.__height):
+            print(' '*self.__x, end="")
             print('#'*self.__width, end='\n')
 
     # __str__ method
