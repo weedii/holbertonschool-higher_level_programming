@@ -36,6 +36,7 @@ class Square(Rectangle):
 
     # update method
     def update(self, *args, **kwargs):
+        """method that updates and assigns key/value argument to attributes"""
         if (args):
             self.id = args[0]
             if len(args) > 1:
