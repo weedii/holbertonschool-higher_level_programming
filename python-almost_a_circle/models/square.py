@@ -54,3 +54,8 @@ class Square(Rectangle):
                 self.x = kwargs['x']
             if 'y' in kwargs:
                 self.y = kwargs['y']
+
+    # to_dictionary method
+    def to_dictionary(self):
+        """method that returns the dictionary representation of a Square"""
+        return {'id': self.id, 'x': self.x, 'size': self.size, 'y': self.y}
