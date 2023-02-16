@@ -38,8 +38,7 @@ class Base:
         with open(filename, 'w') as file:
             if (list_objs is None):
                 list_objs = []
-            else:
-                list_dict = []
-                for obj in (list_objs):
-                    list_dict.append(cls.to_dictionary(obj))
-                file.write(Base.to_json_string(list_dict))
+            list_dict = []
+            for obj in (list_objs):
+                list_dict.append(cls.to_dictionary(obj))
+            file.write(Base.to_json_string(list_dict))
