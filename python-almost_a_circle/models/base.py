@@ -68,13 +68,11 @@ class Base:
         """method that returns a list of instances"""
         file_name = cls.__name__ + ".json"
         list_inst = []
-        path = './'+file_name
-        check_file = os.path.isfile(path)
-        if (check_file == False):
+        try:
+            file = open(file_name, 'r')
+        except IOError:
             return list_inst
-        else:
-            with open(file_name, 'r') as file:
-                ch = cls.from_json_string(file.read())
-                for i in (ch):
-                    list_inst.append(cls.create(**i))
-            return (list_inst)
+        ch = cls.from_json_string(file.read())
+        for i in (ch):
+            list_inst.append(cls.create(**i))
+        return (list_inst)
