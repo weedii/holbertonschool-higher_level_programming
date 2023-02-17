@@ -6,6 +6,7 @@ Base Class
 """
 
 import json
+import os.path
 
 
 class Base:
@@ -67,8 +68,13 @@ class Base:
         """method that returns a list of instances"""
         file_name = cls.__name__ + ".json"
         list_inst = []
-        with open(file_name, 'r') as file:
-            ch = cls.from_json_string(file.read())
-            for i in (ch):
-                list_inst.append(cls.create(**i))
-        return (list_inst)
+        path = './'+file_name
+        check_file = os.path.isfile(path)
+        if (check_file == False):
+            return list_inst
+        else:
+            with open(file_name, 'r') as file:
+                ch = cls.from_json_string(file.read())
+                for i in (ch):
+                    list_inst.append(cls.create(**i))
+            return (list_inst)
