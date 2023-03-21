@@ -18,7 +18,7 @@ if __name__ == "__main__":
     query = "SELECT * FROM cities ORDER BY cities.id ASC"
 
     cur = database.cursor()
-    cur.execute(query, (sys.argv[4],))
+    cur.execute(query)
     rows = cur.fetchall()
 
     for row in rows:
