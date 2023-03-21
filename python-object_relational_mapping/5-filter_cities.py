@@ -18,11 +18,11 @@ if __name__ == "__main__":
         port=3306
     )
 
-    query = "SELECT cities.name\
-        FROM cities INNER JOIN states\
-        ON states.id = cities.state_id\
-        WHERE name=%s\
-        ORDER BY cities.id ASC"
+    query = """SELECT cities.name
+                FROM cities INNER JOIN states
+                ON states.id = cities.state_id
+                WHERE name=%s
+                ORDER BY cities.id ASC"""
 
     cur = database.cursor()
     cur.execute(query, (sys.argv[4],))
