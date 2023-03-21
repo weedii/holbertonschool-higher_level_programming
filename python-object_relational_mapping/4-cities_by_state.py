@@ -15,7 +15,7 @@ if __name__ == "__main__":
         port=3306
     )
 
-    query = "SELECT * FROM cities ORDER BY cities.id ASC"
+    query = "SELECT cities.id, cities.name, states.name FROM cities ORDER BY cities.id ASC"
 
     cur = database.cursor()
     cur.execute(query)
