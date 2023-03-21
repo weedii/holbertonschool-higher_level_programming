@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     for row in rows:
         if (sys.argv[4] == row[1]):
-            print('{}'.format(row))
+            print("{}".format(row))
 
     cur.close()
     database.close()
