@@ -21,7 +21,7 @@ if __name__ == "__main__":
     query = """SELECT cities.name
                 FROM cities INNER JOIN states
                 ON states.id = cities.state_id
-                WHERE name=%s
+                WHERE states.name=%s
                 ORDER BY cities.id ASC"""
 
     cur = database.cursor()
