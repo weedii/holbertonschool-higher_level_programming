@@ -29,7 +29,8 @@ if __name__ == "__main__":
     rows = cur.fetchall()
 
     for row in rows:
-        print("{}".format(row))
+        if (sys.argv[4] == row[1]):
+            print("{}".format(row))
 
     cur.close()
     database.close()
