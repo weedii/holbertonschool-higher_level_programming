@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
     lis = []
     for row in rows:
-        lis.append(row)
+        lis.append(row[0])
         lis.append(', ')
     for i in range(len(lis) - 1):
         print(lis[i], end="")
