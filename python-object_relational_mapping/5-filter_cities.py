@@ -28,9 +28,12 @@ if __name__ == "__main__":
     cur.execute(query, (sys.argv[4],))
     rows = cur.fetchall()
 
+    lis = []
     for row in rows:
-        if (sys.argv[4] == row[1]):
-            print("{}".format(row))
+        lis.append(row)
+        lis.append(', ')
+    for i in range(len(lis) - 1):
+        print(lis[i], end="")
 
     cur.close()
     database.close()
