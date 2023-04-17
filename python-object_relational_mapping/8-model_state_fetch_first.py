@@ -1,30 +1,32 @@
 #!/usr/bin/python3
-"""Select One element in table"""
+
+"""script that prints the first State object from the database hbtn_0e_6_usa"""
 
 import sys
-from model_state import Base, State
 from sqlalchemy import create_engine
+from model_state import Base, State
+from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-if __name__ == "__main__":
-    username = sys.argv[1]
-    password = sys.argv[2]
-    database = sys.argv[3]
 
-    engine = create_engine('mysql+mysqldb://{}:{}@localhost:3306/{}'
-                           .format(username, password, database),
-                           pool_pre_ping=True)
+if __name__ == "__main__":
+
+    db_user = sys.argv[1]
+    db_pass = sys.argv[2]
+    db_name = sys.argv[3]
+
+    engine = create_engine(
+        f"mysql+mysqldb://{db_user}:{db_pass}@localhost:{3306}/{db_name}")
 
     Session = sessionmaker(bind=engine)
     Base.metadata.create_all(engine)
-
     session = Session()
 
-    state = session.query(State).order_by(State.id).first()
+    first_state = session.query(State).order_by(State.id).first()
 
-    if state is None:
-        print("Nothing")
+    if first_state:
+        print(f"{first_state.id}: {first_state.name}")
     else:
-        print("{}: {}".format(state.id, state.name))
+        print("Nothing")
 
     session.close()
