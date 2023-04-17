@@ -20,9 +20,9 @@ if __name__ == "__main__":
     engine = create_engine(
         f"mysql+mysqldb://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}")
 
+    session = sessionmaker(bind=engine)
     Base.metadata.create_all(engine)
 
-    session = sessionmaker(bind=engine)
     states = session.query(State).order_by(State.id).all()
 
     for state in states:
