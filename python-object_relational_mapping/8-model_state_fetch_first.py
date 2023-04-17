@@ -14,22 +14,19 @@ if __name__ == "__main__":
     db_user = sys.argv[1]
     db_pass = sys.argv[2]
     db_name = sys.argv[3]
-    db_host = "localhost"
-    db_port = 3306
 
     engine = create_engine(
-        f"mysql+mysqldb://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}")
+        f"mysql+mysqldb://{db_user}:{db_pass}@localhost:{3306}/{db_name}")
 
     Session = sessionmaker(bind=engine)
     Base.metadata.create_all(engine)
-
     session = Session()
 
     first_state = session.query(State).order_by(State.id).first()
 
-    if first_state:
-        print(f"{first_state.id}: {first_state.name}")
-    else:
+    if first_state is None:
         print("Nothing")
+    else:
+        print(f"{first_state.id}: {first_state.name}")
 
     session.close()
