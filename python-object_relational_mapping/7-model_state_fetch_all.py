@@ -18,7 +18,7 @@ if __name__ == "__main__":
     db_port = 3306
 
     engine = create_engine(
-        f"mysql+mysqldb://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}")
+        f"mysql+mysqldb://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}", pool_pre_ping=True)
 
     session = sessionmaker(bind=engine)
     Base.metadata.create_all(engine)
