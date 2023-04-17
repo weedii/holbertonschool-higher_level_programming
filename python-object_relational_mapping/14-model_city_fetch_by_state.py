@@ -27,6 +27,6 @@ if __name__ == "__main__":
         City.state_id == State.id).order_by(City.id)
 
     for x in states_cities_names:
-        print(f"{State.name}: ({City.id}) {City.name}")
+        print(f"{x.State.name}: ({x.City.id}) {x.City.name}")
 
     session.close()
