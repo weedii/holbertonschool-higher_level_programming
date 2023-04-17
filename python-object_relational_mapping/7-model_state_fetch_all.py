@@ -18,10 +18,12 @@ if __name__ == "__main__":
     db_port = 3306
 
     engine = create_engine(
-        f"mysql+mysqldb://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}", pool_pre_ping=True)
+        f"mysql+mysqldb://{db_user}:{db_pass}@{db_host}:{db_port}/{db_name}")
 
-    session = sessionmaker(bind=engine)
+    Session = sessionmaker(bind=engine)
     Base.metadata.create_all(engine)
+
+    session = Session()
 
     states = session.query(State).order_by(State.id).all()
 
