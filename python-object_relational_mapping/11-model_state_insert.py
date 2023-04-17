@@ -15,7 +15,6 @@ if __name__ == "__main__":
     db_user = sys.argv[1]
     db_pass = sys.argv[2]
     db_name = sys.argv[3]
-    state_name = sys.argv[4]
 
     engine = create_engine(
         f"mysql+mysqldb://{db_user}:{db_pass}@localhost:{3306}/{db_name}")
@@ -27,8 +26,6 @@ if __name__ == "__main__":
     new_state = State(name="Louisiana")
     session.add(new_state)
     session.commit()
-
-    # state = session.query(State).filter(State.name == "Louisiana").one()
 
     print(new_state.id)
 
