@@ -9,5 +9,5 @@ if (arg1 && arg2) {
 } else if (arg1 === undefined && arg2) {
   console.log(`undefined is ${arg2}`);
 } else {
-  console.log('undefined is undefined')
+  console.log('undefined is undefined');
 }
