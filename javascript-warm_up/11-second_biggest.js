@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const arr = process.argv.slice(2).map(n => n)
+const arr = process.argv.slice(2).map(n => n);
 
 if (arr.length < 2) {
   console.log('0');
