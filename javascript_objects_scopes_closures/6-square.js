@@ -1,7 +1,7 @@
 #!/usr/bin/node
-const SquareXX = require('5-square.js');
+const Rectangle = require('./5-square.js');
 
-class Square extends SquareXX {
+class Square extends Rectangle {
   // class of Square that inherit from the last Square class
 
   // charPrint method
