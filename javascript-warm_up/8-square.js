@@ -9,5 +9,6 @@ if (isNaN(size) || arg === undefined) {
     for (let j = 0; j < size; j++) {
       process.stdout.write('X');
     }
+    console.log('\n');
   }
 }
