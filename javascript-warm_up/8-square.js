@@ -7,8 +7,7 @@ if (isNaN(size) || arg === undefined) {
 } else {
   for (let i = 0; i < size; i++) {
     for (let j = 0; j < size; j++) {
-      console.log('%s','X');
+      process.stdout.write('X');
     }
-    console.log('\n');
   }
 }
